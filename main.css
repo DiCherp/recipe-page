@@ -1,0 +1,110 @@
+
+
+body{
+    background-color: #f3e5d7;
+    text-align: center;
+    color: #5f564d;
+    font-family: "Outfit", sans-serif;
+}
+
+h2{
+    color: #854632; 
+    font-size: 28px; 
+    font-family: 'Young Serif', serif; 
+    font-weight: 500;
+}
+
+li::marker{
+    color: #854632;
+}
+
+ol li::marker{
+    font-weight: 700;
+}
+
+ol{
+    line-height: 1.5;
+}
+
+ul {
+    line-height: 2;
+}
+
+ol li, ul li{
+    padding-left: 1em;
+}
+
+li p{
+    line-height: normal;
+}
+
+.main-inf{
+    width: 40%;
+    text-align: left;
+    margin: 5% 30%;
+    background-color: white;
+    padding: 3%;
+    border-radius: 30px;
+    
+}
+
+.main-img {
+    width: 100%;
+}
+
+.datas {
+    color:  #854632;
+    font-weight: 700;
+
+}
+
+
+
+.preparation
+{
+    background-color: #fff7fb;
+    font-family: monospace;
+    font-family: 'Outfit', sans-serif;
+    
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ingredients{
+    border-bottom: 1px solid #e3ddd7;
+
+}
+
+
+.instructions{
+    border-bottom: 1px solid #e3ddd7;
+
+}
+
+.table{
+    
+    display: table;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.row{
+    display: table-row;
+    height: 40px; 
+}
+
+.cell{
+    display: table-cell;
+    border-bottom: 1px solid #e3ddd7;
+    padding-left: 30px; 
+}
+
+.cell:last-child{
+    color: #854632;
+    font-weight: 700;
+}
+
+.data {
+    border: none;
+}
+
