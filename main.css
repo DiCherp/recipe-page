@@ -1,8 +1,9 @@
 
 
 body{
+    display: flex;
     background-color: #f3e5d7;
-    text-align: center;
+    align-items: center;
     color: #5f564d;
     font-family: "Outfit", sans-serif;
 }
@@ -39,13 +40,16 @@ li p{
 }
 
 .main-inf{
-    width: 40%;
+    flex-basis: 375px;
+    flex-grow: 1;
     text-align: left;
-    margin: 5% 30%;
+    
     background-color: white;
     padding: 3%;
     border-radius: 30px;
-    
+    max-width: 736px;
+    min-width: 375px;
+    margin: auto;
 }
 
 .main-img {
